@@ -23,7 +23,7 @@ for(int e=0;e<9;e++) cin>>x[e];
 cout<<"Enter Number of Left Rotations: ";
 cin>>k;
 rotateArray(x,n,k);
-cout<<"Elements of the Array after Roations\n";
+cout<<"Elements of the Array after Rotations\n";
 for(int e=0;e<9;e++)cout<<x[e]<<" ";
 return 0;
 }
